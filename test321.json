@@ -1,0 +1,101 @@
+{
+	"nodes": [{
+		"node": 0,
+		"name": "6: 80-80"
+	}, {
+		"node": 1,
+		"name": "src: /140.192.37.20-/140.192.37.20"
+	}, {
+		"node": 2,
+		"name": "dst: /0.0.0.0-/255.255.255.255"
+	}, {
+		"node": 3,
+		"name": "6: 21-21"
+	}, {
+		"node": 4,
+		"name": "src: /140.192.37.30-/140.192.37.30"
+	}, {
+		"node": 5,
+		"name": "src: /140.192.37.0-/140.192.37.255"
+	}, {
+		"node": 6,
+		"name": "dst: /161.120.33.40-/161.120.33.40"
+	}, {
+		"node": 7,
+		"name": "src: /0.0.0.0-/255.255.255.255"
+	}, {
+		"node": 8,
+		"name": "6: 0-65536"
+	}, {
+		"node": 9,
+		"name": "17: 53-53"
+	}, {
+		"node": 10,
+		"name": "17: 0-65536"
+	}],
+	"links": [{
+		"source": 1,
+		"target": 0,
+		"value": 2
+	}, {
+		"source": 0,
+		"target": 2,
+		"value": 2
+	}, {
+		"source": 4,
+		"target": 3,
+		"value": 2
+	}, {
+		"source": 3,
+		"target": 2,
+		"value": 2
+	}, {
+		"source": 5,
+		"target": 0,
+		"value": 2
+	}, {
+		"source": 0,
+		"target": 6,
+		"value": 2
+	}, {
+		"source": 5,
+		"target": 3,
+		"value": 2
+	}, {
+		"source": 3,
+		"target": 6,
+		"value": 2
+	}, {
+		"source": 7,
+		"target": 0,
+		"value": 2
+	}, {
+		"source": 7,
+		"target": 8,
+		"value": 2
+	}, {
+		"source": 8,
+		"target": 2,
+		"value": 2
+	}, {
+		"source": 5,
+		"target": 9,
+		"value": 2
+	}, {
+		"source": 9,
+		"target": 6,
+		"value": 2
+	}, {
+		"source": 7,
+		"target": 9,
+		"value": 2
+	}, {
+		"source": 7,
+		"target": 10,
+		"value": 2
+	}, {
+		"source": 10,
+		"target": 2,
+		"value": 2
+	}]
+}
